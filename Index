@@ -1,0 +1,26 @@
+# branch_rage.py
+import sys
+
+branc```python
+# vault-index.py
+
+def start_vault():
+    print("Vault open.")
+    print("Silence loaded.")
+    print("Raven active.")
+
+    # Run agent flow
+    from agent_mock import VaultAgent
+    agent = VaultAgent()
+    agent.receive("when is drop?")
+    agent.receive("what size?")  
+
+    # Trigger hologram once
+    import euro_hologram
+    print("Hologram played. One time.")
+
+    print("Floor complete.")
+    print("Return to silence.")
+
+if __name__ == "__main__":
+    start_vault()
